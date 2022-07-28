@@ -1,0 +1,23 @@
+
+## no início do jogo
+recebo o container com 5 objetos; 
+crio uma lista[] de bloco dinamicamente:
+	lendo o tranform do container, em um laço, atribuo a cada posição da lista[0][1][2][3][4] o conteúdo da tag;
+	
+
+## a cada toque nas setas para direita ou esquerda
+	crio uma var de string para servir de coringa nas trocas;
+	IF para separar qual foi o lado;
+	Esquerda:
+		guardo o conteudo da posição 0 em var;
+		percorro a lista em um laço, a cada item após o 0 e guardo a variavel TAG para a posição anterior na lista
+		ou seja, o que estava em [1] eu passo para [0], o que estava em [2] eu passo para [1] até o ultimo item da lista;
+		Se for o último item da lista-1 (5 itens contando do 0 é até o numéro 4 de índice), eu atribuo o valor de var nessa
+		posição;
+	Direita:
+
+
+
+
+Passo os dados dessa lista para montar um novo container de bloco de cores e desenho em tela.
+	
